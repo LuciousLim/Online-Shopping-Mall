@@ -1,5 +1,9 @@
 server:
+<<<<<<< HEAD
   port: 9090
+=======
+  port: 9091
+>>>>>>> b945c7a5019bc26a0ff98a50a671ab3f81f23094
 
 # 数据库配置
 spring:

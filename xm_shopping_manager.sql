@@ -3,6 +3,12 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+<<<<<<< HEAD
+=======
+DROP DATABASE IF EXISTS `xm_shopping_manager`;
+CREATE DATABASE `xm_shopping_manager`;
+use `xm_shopping_manager`;
+>>>>>>> b945c7a5019bc26a0ff98a50a671ab3f81f23094
 
 -- ----------------------------
 -- Table structure for address

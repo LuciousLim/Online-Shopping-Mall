@@ -11,6 +11,12 @@ import java.util.stream.IntStream;
 
 /**
  * 核心算法
+<<<<<<< HEAD
+=======
+ *
+ * @author B站 UP：武哥聊编程
+ * @version 1.0
+>>>>>>> b945c7a5019bc26a0ff98a50a671ab3f81f23094
  */
 public class CoreMath {
 

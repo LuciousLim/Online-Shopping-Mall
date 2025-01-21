@@ -4,10 +4,15 @@ import cn.hutool.core.date.DateUtil;
 import com.example.common.enums.RoleEnum;
 import com.example.entity.Account;
 import com.example.entity.Cart;
+<<<<<<< HEAD
 import com.example.entity.Goods;
 import com.example.entity.Orders;
 import com.example.mapper.CartMapper;
 import com.example.mapper.GoodsMapper;
+=======
+import com.example.entity.Orders;
+import com.example.mapper.CartMapper;
+>>>>>>> b945c7a5019bc26a0ff98a50a671ab3f81f23094
 import com.example.mapper.OrdersMapper;
 import com.example.utils.TokenUtils;
 import com.github.pagehelper.PageHelper;
@@ -30,8 +35,11 @@ public class OrdersService {
     private OrdersMapper ordersMapper;
     @Resource
     private CartMapper cartMapper;
+<<<<<<< HEAD
     @Resource
     private GoodsMapper goodsMapper;
+=======
+>>>>>>> b945c7a5019bc26a0ff98a50a671ab3f81f23094
 
     /**
      * 新增
@@ -49,11 +57,14 @@ public class OrdersService {
 
             // 把购物车里对应的商品删掉
             cartMapper.deleteById(cart.getId());
+<<<<<<< HEAD
 
             // 把商品销量增加一下
             Goods goods = goodsMapper.selectById(cart.getGoodsId());
             goods.setCount(goods.getCount() + cart.getNum());
             goodsMapper.updateById(goods);
+=======
+>>>>>>> b945c7a5019bc26a0ff98a50a671ab3f81f23094
         }
     }
 
